@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(12, 30, 58);
+  justify-content: space-between;
+align-items: center;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+.navbar-menu {
+  height: 10%;
+}
+.hero {
+  color: white;
+  background-color: rgb(12, 30, 58);
+  margin: 0;
+}
+.hero-title {
+  margin: 0;
+  max-width: 30%;
+  margin-left: 2rem;
+
+}
+.hero-description {
+max-width: 30%;
+margin-left: 2rem;
+
+}
+.hero-action-button {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  
+}
+.icon-card-list {
+  display: flex;
+align-content: space-evenly;
+list-style-type: none;
+margin-top: 6rem;
+}
+.icon-card {
+  max-width: 50%;
+  margin-left: 1rem;
+}
